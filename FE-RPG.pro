@@ -13,12 +13,17 @@ TEMPLATE = app
 
 
 SOURCES +=\
-        mainwindow.cpp
+        mainwindow.cpp \
+    Map/map.cpp
 
 HEADERS  += \
     Personnage.h \
     Arme.h \
     Armes/Arme.h \
-    Personnages/Personnage.h
+    Personnages/Personnage.h \
+    Map/map.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    images.qrc
