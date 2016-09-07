@@ -1,5 +1,5 @@
-#include "Personnage.h"
-#include "Arme.h"
+#include "Personnages/Personnage.h"
+#include "Armes/Arme.h"
 #include <iostream>
 #include <string>
 

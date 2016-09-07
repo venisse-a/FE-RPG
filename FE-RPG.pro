@@ -17,6 +17,8 @@ SOURCES +=\
 
 HEADERS  += \
     Personnage.h \
-    Arme.h
+    Arme.h \
+    Armes/Arme.h \
+    Personnages/Personnage.h
 
 FORMS    += mainwindow.ui
