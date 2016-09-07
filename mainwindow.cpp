@@ -2,11 +2,22 @@
 #include "Armes/Arme.h"
 #include <iostream>
 #include <string>
+#include <QCoreApplication>
+#include <QApplication>
+#include <QtWidgets/QWidget>
+#include <QtGui/QPixmap>
+#include <QtGui/QImage>
+#include <QGraphicsView>
+#include <QLabel>
+#include <stdio.h>
+#include <QGraphicsScene>
+#include "Map/map.h"
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
+    QApplication app(argc, argv);
     Soldier U1;
     Mercenary U2;
     Knight U3;
@@ -21,4 +32,17 @@ int main()
     cout << W1.get_name() << ", " << W1.get_mt() << ", " << W1.get_hit() << ", " << W1.get_crt() << ", " << W1.get_rng() << ", " << W1.get_wt() << endl;
 
 
+    QGraphicsScene *scene = new QGraphicsScene;
+    Map map;
+    cout<<map.graphic_map[0][0];
+    int size_c = 30;
+    int size_l = 20;
+    while (1)
+      {
+        map.Show_Map(map.graphic_map,size_l,size_c,scene);
+        QGraphicsView vue(scene);
+        cout<<"here";
+        vue.show();
+        return app.exec();
+      }
 }

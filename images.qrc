@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/tiles">
+        <file>Tiles/arbre1.png</file>
+        <file>Tiles/colline.png</file>
+        <file>Tiles/eau.png</file>
+        <file>Tiles/eau2.png</file>
+        <file>Tiles/eau3.png</file>
+        <file>Tiles/forteresse.png</file>
+        <file>Tiles/gmai1.png</file>
+        <file>Tiles/gmai2.png</file>
+        <file>Tiles/gmai3.png</file>
+        <file>Tiles/gmai4.png</file>
+        <file>Tiles/gmai5.png</file>
+        <file>Tiles/gmai6.png</file>
+        <file>Tiles/herbe.png</file>
+        <file>Tiles/hutte.png</file>
+        <file>Tiles/maison.png</file>
+        <file>Tiles/maison3.png</file>
+        <file>Tiles/montagne1.png</file>
+        <file>Tiles/mur.png</file>
+        <file>Tiles/mur2.png</file>
+        <file>Tiles/mur3.png</file>
+        <file>Tiles/mur4.png</file>
+        <file>Tiles/os.png</file>
+        <file>Tiles/os2.png</file>
+        <file>Tiles/sable.png</file>
+        <file>Tiles/sable1.png</file>
+        <file>Tiles/sable2.png</file>
+        <file>Tiles/sable3.png</file>
+    </qresource>
+</RCC>
